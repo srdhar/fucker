@@ -1,0 +1,52 @@
+<86>Jan 10 17:10:05 groupadd[1387]: new group: name=utmp, GID=22
+<86>Jan 10 17:10:06 groupadd[1391]: new group: name=utempter, GID=35
+<86>Jan 10 17:10:07 useradd[1411]: new group: name=nscd, GID=28
+<86>Jan 10 17:10:07 useradd[1411]: new user: name=nscd, UID=28, GID=28, home=/, shell=/sbin/nologin
+<86>Jan 10 17:10:11 groupadd[1458]: new group: name=floppy, GID=19
+<86>Jan 10 17:10:14 useradd[1462]: new group: name=vcsa, GID=69
+<86>Jan 10 17:10:14 useradd[1462]: new user: name=vcsa, UID=69, GID=69, home=/dev, shell=/sbin/nologin
+<86>Jan 10 17:10:15 groupadd[1479]: new group: name=pcap, GID=77
+<86>Jan 10 17:10:17 useradd[1483]: new user: name=pcap, UID=77, GID=77, home=/var/arpwatch, shell=/sbin/nologin
+<86>Jan 10 17:10:18 groupadd[1763]: new group: name=slocate, GID=21
+<14>Jan 10 17:10:46 gconfd (root-1837): starting (version 2.14.0), pid 1837 user 'root'
+<14>Jan 10 17:10:46 gconfd (root-1837): Resolved address "xml:readonly:/etc/gconf/gconf.xml.mandatory" to a read-only configuration source at position 0
+<14>Jan 10 17:10:46 gconfd (root-1837): Resolved address "xml:readwrite:/root/.gconf" to a writable configuration source at position 1
+<14>Jan 10 17:10:46 gconfd (root-1837): Resolved address "xml:readonly:/etc/gconf/gconf.xml.defaults" to a read-only configuration source at position 2
+<14>Jan 10 17:10:48 gconfd (root-1837): Exiting
+<86>Jan 10 17:10:56 groupadd[1889]: new group: name=ntp, GID=38
+<86>Jan 10 17:10:57 useradd[1893]: new user: name=ntp, UID=38, GID=38, home=/etc/ntp, shell=/sbin/nologin
+<86>Jan 10 17:11:06 useradd[2176]: new group: name=dbus, GID=81
+<86>Jan 10 17:11:06 useradd[2176]: new user: name=dbus, UID=81, GID=81, home=/, shell=/sbin/nologin
+<86>Jan 10 17:11:11 groupadd[2214]: new group: name=audio, GID=63
+<86>Jan 10 17:11:16 useradd[2251]: new group: name=avahi, GID=70
+<86>Jan 10 17:11:16 useradd[2251]: new user: name=avahi, UID=70, GID=70, home=/, shell=/sbin/nologin
+<86>Jan 10 17:11:22 groupadd[2284]: new group: name=rpc, GID=32
+<86>Jan 10 17:11:27 useradd[2288]: new user: name=rpc, UID=32, GID=32, home=/, shell=/sbin/nologin
+<86>Jan 10 17:11:29 useradd[2355]: new group: name=apache, GID=48
+<86>Jan 10 17:11:29 useradd[2355]: new user: name=apache, UID=48, GID=48, home=/var/www, shell=/sbin/nologin
+<86>Jan 10 17:11:32 useradd[2365]: new group: name=mailnull, GID=47
+<86>Jan 10 17:11:32 useradd[2365]: new user: name=mailnull, UID=47, GID=47, home=/var/spool/mqueue, shell=/sbin/nologin
+<86>Jan 10 17:11:34 useradd[2370]: new group: name=smmsp, GID=51
+<86>Jan 10 17:11:34 useradd[2370]: new user: name=smmsp, UID=51, GID=51, home=/var/spool/mqueue, shell=/sbin/nologin
+<21>Jan 10 17:11:35 sendmail[2386]: alias database /etc/aliases rebuilt by root
+<22>Jan 10 17:11:35 sendmail[2386]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+<86>Jan 10 17:11:58 groupadd[2679]: new group: name=hsqldb, GID=96
+<86>Jan 10 17:11:58 useradd[2683]: new user: name=hsqldb, UID=96, GID=96, home=/var/lib/hsqldb, shell=/sbin/nologin
+<86>Jan 10 17:12:20 useradd[2887]: failed adding user `avahi', data deleted
+<86>Jan 10 17:12:32 useradd[2981]: new group: name=sshd, GID=74
+<86>Jan 10 17:12:32 useradd[2981]: new user: name=sshd, UID=74, GID=74, home=/var/empty/sshd, shell=/sbin/nologin
+<86>Jan 10 17:13:17 useradd[3083]: new group: name=rpcuser, GID=29
+<86>Jan 10 17:13:17 useradd[3083]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Jan 10 17:13:17 groupadd[3091]: new group: name=nfsnobody, GID=65534
+<86>Jan 10 17:13:17 useradd[3098]: new user: name=nfsnobody, UID=65534, GID=65534, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Jan 10 17:13:18 useradd[3114]: new group: name=xfs, GID=43
+<86>Jan 10 17:13:18 useradd[3114]: new user: name=xfs, UID=43, GID=43, home=/etc/X11/fs, shell=/sbin/nologin
+<86>Jan 10 17:14:07 useradd[4019]: new group: name=haldaemon, GID=68
+<86>Jan 10 17:14:07 useradd[4019]: new user: name=haldaemon, UID=68, GID=68, home=/, shell=/sbin/nologin
+<86>Jan 10 17:14:09 groupadd[4031]: new group: name=avahi-autoipd, GID=101
+<86>Jan 10 17:14:12 useradd[4036]: new user: name=avahi-autoipd, UID=100, GID=101, home=/var/lib/avahi-autoipd, shell=/sbin/nologin
+<86>Jan 10 17:14:13 useradd[4065]: failed adding user `haldaemon', data deleted
+<86>Jan 10 17:16:24 useradd[5699]: new group: name=gdm, GID=42
+<86>Jan 10 17:16:24 useradd[5699]: new user: name=gdm, UID=42, GID=42, home=/var/gdm, shell=/sbin/nologin
+<86>Jan 10 17:16:29 usermod[5704]: change user `gdm' shell from `/sbin/nologin' to `/sbin/nologin'
+<86>Jan 10 17:16:29 usermod[5704]: add `gdm' to group `audio'
